@@ -40,7 +40,7 @@ BEGIN -- bloco principal do programa
    Seq_Float_IO.Close(File => blank);
 
    Open_Data(File => container, Name => ord);
-  Seq_Float_IO.Write(File => container, Item => x);
-  Seq_Float_IO.Close(File => container);
+   Seq_Float_IO.Write(File => container, Item => x);
+   Seq_Float_IO.Close(File => container);
 
 END TEST1;
